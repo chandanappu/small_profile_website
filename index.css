@@ -1,0 +1,45 @@
+
+.img1{
+    border-radius: 50%;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.Head1, .Head2{
+    letter-spacing: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Head1, .Head2 :hover{
+    -webkit-animation: zomg 0.5s infinite;
+    animation: zomg 3s infinite;
+}
+@-webkit-keyframes zomg {
+    0%, 100% { color: #7ccdea; }
+    80%      { color: #ff4136; }
+  }
+  @keyframes zomg {
+    0%, 100% { color: #7ccdea; }
+   
+   
+    
+   
+    80%      { color: #ff4136; }
+  }
+
+.Head1 {
+    padding-left: 4rem; /* Adjust the padding for h1 */
+  }
+
+  .Head2 {
+    padding-left: 4rem; /* Adjust the padding for h3 */
+  }
+
+  .mainheading, .mini{
+    font-size:50px ;
+    letter-spacing: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .card{
+    margin-left:2rem ;
+  }
